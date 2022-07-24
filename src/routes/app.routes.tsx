@@ -14,4 +14,4 @@ export function AppRoutes() {
             <Screen name="new" component={Register} />
         </Navigator>
     );
-}
+} sasa
