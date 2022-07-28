@@ -75,6 +75,12 @@ export function SignIn(){
                 onPress={handleSingIn} 
                 isLoading={isLoading}
             />
+
+            <Button 
+                title='cadastrar'
+                w="full"
+                
+            />
         </VStack>
     );
 }
