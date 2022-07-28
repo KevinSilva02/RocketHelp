@@ -1,17 +1,19 @@
 import { useState, useEffect } from 'react';
 import { Alert } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 import { VStack, HStack, IconButton, useTheme, Text, Heading, FlatList, Center } from 'native-base';
+
+import { useNavigation } from '@react-navigation/native';
 import { SignOut, ChatTeardropText } from 'phosphor-react-native';
 import auth from '@react-native-firebase/auth'
 import firestone from '@react-native-firebase/firestore';
 
+import { ItemClick } from 'native-base/lib/typescript/components/composites/Typeahead/useTypeahead/types';
+import { dateFormat } from '../utils/firestoreDateformat';
 import Logo from '../assets/logo_secondary.svg';
+
 import { Filter } from '../components/Filter';
 import { Button } from '../components/Button';
 import { Order, OrderProps } from '../components/Order';
-import { ItemClick } from 'native-base/lib/typescript/components/composites/Typeahead/useTypeahead/types';
-import { dateFormat } from '../utils/firestoreDateformat';
 import { Loading } from '../components/loading';
 
 
