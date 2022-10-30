@@ -76,11 +76,6 @@ export function SignIn(){
                 isLoading={isLoading}
             />
 
-            <Button 
-                title='cadastrar'
-                w="full"
-                
-            />
         </VStack>
     );
 }

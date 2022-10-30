@@ -40,6 +40,8 @@ export function Details() {
       return Alert.alert('Solicitação', 'Informa a solução para encerrar a solicitação');
     }
 
+    
+
     firestore()
     .collection<OrderFirestoreDTO>('orders')
     .doc(orderId)
@@ -76,6 +78,7 @@ export function Details() {
         when: dateFormat(created_at),
         closed
       });
+      console.log(order.status)
 
       setIsLoading(false);
     });
@@ -117,7 +120,7 @@ export function Details() {
           <CardDetails 
             title= "descrição do problema"
             description={order.description}
-            icon={ClipboardText}
+            icon={ClipboardText}       
             footer={`Registrado em ${order.when}`}
           />
           <CardDetails 

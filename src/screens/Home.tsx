@@ -14,7 +14,7 @@ import Logo from '../assets/logo_secondary.svg';
 import { Filter } from '../components/Filter';
 import { Button } from '../components/Button';
 import { Order, OrderProps } from '../components/Order';
-import { Loading } from '../components/loading';
+import { Loading } from '../components/loading';    
 
 
 export function Home() {
