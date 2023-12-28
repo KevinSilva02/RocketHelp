@@ -17,7 +17,7 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mobile.jpg" width="200px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mobile.png" width="200px">
 
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mobile2.png" width="200px">
 </p>
